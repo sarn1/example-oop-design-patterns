@@ -5,7 +5,9 @@ https://sourcemaking.com/design_patterns/strategy/php
 
 In the Strategy Pattern a context will choose the appropriate concrete extension of a class interface.
 
-In this example, the StrategyContext class will set a strategy of StrategyCaps, StrategyExclaim, or StrategyStars depending on a parameter StrategyContext receives at instantiation. When the showName() method is called in StrategyContext it will call the showName() method in the Strategy that it set.
+In this example, the StrategyContext class will set a strategy of StrategyCaps, StrategyExclaim, or 
+StrategyStars depending on a parameter StrategyContext receives at instantiation. When the showName() 
+method is called in StrategyContext it will call the showName() method in the Strategy that it set.
 */
 
 class StrategyContext {

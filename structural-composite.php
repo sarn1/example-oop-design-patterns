@@ -3,13 +3,18 @@
 /*
 https://sourcemaking.com/design_patterns/composite/php
 
-In the Composite pattern an individual object or a group of that object will have similar behaviors.
+In the Composite pattern an individual object or a group of that object will have 
+similar behaviors.
 
-In this example, the OneBook class is the individual object. The SeveralBooks class is a group of zero or more OneBook objects.
+In this example, the OneBook class is the individual object. The SeveralBooks class is a 
+group of zero or more OneBook objects.
 
-Both the OneBook and SeveralBooks can return information about the books title and author. OneBook can only return this information about one single book, while SeveralBooks will return this information one at a time about as many OneBooks as it holds.
+Both the OneBook and SeveralBooks can return information about the books title and author. 
+OneBook can only return this information about one single book, while SeveralBooks will return 
+this information one at a time about as many OneBooks as it holds.
 
-While both classes have addBook and removeBook functions, they are only functional on  SeveralBooks. OneBook will merely return FALSE when these functions are called.
+While both classes have addBook and removeBook functions, they are only functional on  
+SeveralBooks. OneBook will merely return FALSE when these functions are called.
 */
 
 abstract class OnTheBookShelf {

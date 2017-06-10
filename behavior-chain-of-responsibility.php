@@ -3,7 +3,8 @@
 /*
 https://sourcemaking.com/design_patterns/chain_of_responsibility/php
 
-A method called in one object will move up a chain of objects until one is found that can properly handle the call.
+A method called in one object will move up a chain of objects until one is found 
+that can properly handle the call.
 */
 
 abstract class AbstractBookTopic {
