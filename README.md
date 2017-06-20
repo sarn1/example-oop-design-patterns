@@ -4,7 +4,7 @@ Design patterns examples and notes from the following sites:
 * [OODesign][oodesign url]
 * [TreeHouse: Introduction to Design Patterns ][treehouse url]
 * [Tuts+: PHP Design Patterns][tutsplus url]
-* [Tuts+ Github OOD Page][tutsplusood url]
+* [Tuts+: PHP Design Patterns Github Page][tutsplusood url]
 
 [sourcemaking url]: https://sourcemaking.com
 [oodesign url]: http://www.oodesign.com/
